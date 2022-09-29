@@ -7,3 +7,4 @@ An epicyclic gear train can be assembled so the planet gear rolls on the inside 
 The combination of epicycle gear trains with a planet engaging both a sun gear and a ring gear is called a planetary gear train.[1][2] In this case, the ring gear is usually fixed and the sun gear is driven.
 
 The added line for step 3
+The added line in VSC

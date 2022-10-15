@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=Shadows+Into+Light&display=swap');
+
+
+
+
+
+
+body{
+    text-align: center;
+    background-color: #6D778F;
+}
+main{
+    background-color: #6D778F;
+}
+ul.MainMenu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.MainMenu_Item{
+    float:left;
+}
+
+.Snacks_List,.Burgers_List,.Dishes_List,.Desserts_List{
+    font-size: large;
+    font-weight: 540;
+    font-family: 'Shaddows Into Light',cursive;
+}
+
+.Snacks_Item,.Burgers_Item,.Dishes_Item,.Desserts_Item{
+    display: block;
+    color: #021389;
+    background-color: paleturquoise;
+}
+
+li.MainMenu_Item a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li.MainMenu_Item a:hover{
+    background-color: #111;
+}
+
+header{
+    font-family: 'Shadows Into Light', cursive;
+}

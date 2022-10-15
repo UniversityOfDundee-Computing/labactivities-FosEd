@@ -4,24 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-    p {
-        font-size: 14pt;
-        color: blue;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    }
-    h1,h2,h3,h4,h5,h6 {
-        font-family: sans-serif; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    }
-    h1 {font-size: 25pt;}
-    li {font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-variant: small-caps;
-    }
-    header {
-        border:darkslateblue 10px ridge;
-        
-    }
-    </style>
+    <link rel="stylesheet" href="master.css">
     <title>Document</title>
 </head>
 <body>
@@ -30,27 +13,30 @@
         <p1><address>Home Address</address></p1>
     </header>
     <main>
-        <section>
-        <h3>Previous Experience</h3>
-        <h4>Previous jobs:</h4>
-        <ol>
-            <li>Nursery assistant (plants)</li>
-            <li>Assisting a landscape gardener</li>
-            <li>Dog walking Survices</li>
-        </ol>
+        <section class="PreviousExperience">
+            <h3>Previous Experience</h3>
+            <section class="PreviousExperience_Job">
+                <h4>Previous jobs:</h4>
+                <ol>
+                    <li>Nursery assistant (plants)</li>
+                    <li>Assisting a landscape gardener</li>
+                    <li>Dog walking Survices</li>
+                </ol>
+            </section>
+        
+            <section class ="PreviousExperience_Other">
+                <h4>Other Experience</h4>
+                <ul>
+                    <li>Scout Leader</li>
+                    <li>Holds Young Leader Award</li>
+                    <li>Holds Duke of Edinburgh Bronze Award</li>
+                    <li>Holds Chief Scout Gold Award</li>
+                </ul>
+            </section>
         </section>
-        <section>
-        <h4>Other Experience</h4>
-        <ul>
-            <li>Scout Leader</li>
-            <li>Holds Young Leader Award</li>
-            <li>Holds Duke of Edinburgh Bronze Award</li>
-            <li>Holds Chief Scout Gold Award</li>
-        </ul>
-        </section>
-        <section>
+        <section class="Education">
             <h3>Education</h3>
-            <table>
+            <table class = "EducationTable">
                 <tr>
                     <th>Subject</th>
                     <th>Level</th>
@@ -92,7 +78,7 @@
     </main>
     <footer>
         <h2>Contact me</h2>
-        <h4><strong>Email:</strong> <a href="mailto:fosterej@btinternet.com">perosnal:</a> <a href="mailt:2510319@Dundee.ac.uk">University:</a></h4>
+        <h4><strong>Email:</strong> <a href="mailto:fosterej@btinternet.com">perosnal:</a> <a href="mailto:2510319@Dundee.ac.uk">University:</a></h4>
     </footer>
 </body>
 </html>

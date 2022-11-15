@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" href="tipStyle.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+
+
+  <title></title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="container pt-2 text-center">
+      <h1>Tip Calculator</h1>
+    </div>
+    <div class="row">
+        <div class="col"></div>
+        <div class="col">
+            <div class="container">
+                <ol id="selectable">
+                    <li class="ui-widget-content">£100</li>
+                    <li class="ui-widget-content">£50</li>
+                    <li class="ui-widget-content">£10</li>
+                    <li class="ui-widget-content">£1</li>
+                    <li class="ui-widget-content">£0.50</li>
+                    <li class="ui-widget-content">£0.10</li>
+                    <li class="ui-widget-content">£0.05</li>
+                    <li class="ui-widget-content">£0.01</li>
+                </ol>
+                <div class="container">
+                    <div class="row">
+                      <div class="col">
+                      </div>
+                      <div class="col">
+                        <label for="billAmount">Bill amount</label>
+                        
+                        
+                        <div class="row">
+                          <p class="pt-3">Select tip preferance</p>
+                          <div class="col">
+                            <button class="black_white" type="button" name="button" id="low">5%</button>
+              
+                          </div>
+                          <div class="col">
+                            <button class="black_white" type="button" name="button" id="meduim">10%</button>
+              
+                          </div>
+                          <div class="col">
+                            <button class="black_white" type="button" name="button" id="high">25%</button>
+              
+                          </div>
+                          <button class="black_white" type="button" name="button" id="large">Largest from 25% or £2+10%</button>
+              
+              
+                        </div>
+        
+                <div class="container text-center">
+                    <h2>Tip to give</h2>
+                    <h3 id="tip">£XX.XX</h3>
+        
+                </div>
+        
+            </div>
+        </div>
+        <div class="col"></div>
+    </div>
+
+  </div>
+
+</body>
+
+<script src="tipJQ.js"></script>
+</html>

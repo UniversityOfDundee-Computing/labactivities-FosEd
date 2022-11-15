@@ -1,0 +1,7 @@
+.black_white{
+  background-color: black;
+  color: white;
+}
+#selectable .ui-selecting { background: #FECA40; }
+#selectable .ui-selected { background: #F39814; color: white; }
+#selectable { list-style-type: none;}
